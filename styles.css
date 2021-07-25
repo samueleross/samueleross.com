@@ -16,12 +16,6 @@ body {
   line-height: 1.25em;
 }
 
-.changedirection {
-  unicode-bidi: bidi-override;
-  direction: rtl;
-  text-align: left;
-}
-
 .profileimage {
   position: relative;
   right: 25px;
@@ -42,7 +36,7 @@ body {
 
 .copyright {
   text-align: center;
-  position: fixed;
+  position: absolute;
   left: 50%;
   bottom: -25px;
   transform: translate(-50%, -50%);
