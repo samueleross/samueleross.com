@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.name {
+  text-align: center;
+  color: blue;
+  font-size: 1.5em;
+  line-height: 0.65em;
+}
+
+.header {
+  text-align: center;
+  line-height: 1.25em;
+}
+
+.changedirection {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: left;
+}
+
+.profileimage {
+  position: relative;
+  right: 25px;
+  top: 10px;
+  float: right;
+}
+
+.dirheader {
+  font-size: 1.5em;
+  line-height: 0.4em;
+  color: green;
+}
+
+.direntries {
+  font-size: 1.1em;
+  line-height: 1.25em;
+}
+
+.copyright {
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  bottom: -25px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
