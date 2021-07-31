@@ -42,3 +42,14 @@ body {
   transform: translate(-50%, -50%);
   margin: 0 auto;
 }
+
+@media (min-width: 0px) and (max-width: 999px) {
+  .profileimage {
+    width: 25vh;
+  }
+
+  .direntries {
+    font-size: 1.1em;
+    line-height: 1.25em;
+  }
+}
