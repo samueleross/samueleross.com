@@ -21,6 +21,7 @@ body {
   right: 25px;
   top: 10px;
   float: right;
+  max-width: 26%;
 }
 
 .dirheader {
@@ -34,18 +35,24 @@ body {
   line-height: 1.25em;
 }
 
-.copyright {
-  text-align: center;
+footer {
+  position: relative;
+  height: 300px;
+  width: 100%;
+}
+
+p.copyright {
   position: absolute;
-  left: 50%;
-  bottom: -25px;
-  transform: translate(-50%, -50%);
-  margin: 0 auto;
+  width: 100%;
+  line-height: 40px;
+  text-align: center;
+  bottom: 0;
 }
 
 @media (min-width: 0px) and (max-width: 999px) {
   .profileimage {
-    width: 25vh;
+    width: 35vh;
+    max-width: 40%;
   }
 
   .direntries {
