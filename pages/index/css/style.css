@@ -14,6 +14,7 @@ body {
 .header {
   text-align: center;
   line-height: 1.25em;
+  font-size: 1em;
 }
 
 .profileimage {
