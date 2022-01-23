@@ -17,11 +17,12 @@ body {
 }
 
 .profileimage {
-  position: relative;
-  right: 25px;
-  top: 10px;
-  float: right;
-  max-width: 26%;
+  position: static;
+  /* right: 25px; */
+  /* top: 10px; */
+  /* float: left; */
+  /* max-width: 26%; */
+  width: 35vh;
 }
 
 .dirheader {
@@ -50,10 +51,10 @@ p.copyright {
 }
 
 @media (min-width: 0px) and (max-width: 999px) {
-  .profileimage {
-    width: 35vh;
-    max-width: 40%;
-  }
+  /* .profileimage { */
+  /*   width: 35vh; */
+  /*   max-width: 40%; */
+  /* } */
 
   .direntries {
     font-size: 1.1em;
