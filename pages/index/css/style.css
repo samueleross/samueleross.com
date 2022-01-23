@@ -2,6 +2,7 @@
 
 body {
   font-family: Helvetica, Arial, sans-serif;
+  background-color: #f7f7f7;
 }
 
 .name {
@@ -39,7 +40,7 @@ body {
 
 footer {
   position: relative;
-  height: 300px;
+  height: 220px;
   width: 100%;
 }
 
