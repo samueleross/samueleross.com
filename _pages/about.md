@@ -15,7 +15,7 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I am an incoming summer research intern at the Federal Reserve Board. I currently study mathematics and economics at Haverford College. 
+I am an incoming summer research intern at the Federal Reserve Board. I currently study mathematics and economics at Haverford College.
 
 My academic interests include macroeconomic and financial research&mdash;I am specifically curious about monetary economics and central banking. My work has been [published](https://www.centralbanking.com/central-banks/monetary-policy/communication/7951981/book-notes-cant-we-just-print-more-money-by-rupal-patel-and-jack-meaning) in a leading industry magazine&mdash;Central Banking&mdash;and I am currently co-authoring a [conference paper](/assets/pdf/GangolfGoyalRoss_CovidReopenings.pdf) on state-level variations in covid reopening procedures.
 
