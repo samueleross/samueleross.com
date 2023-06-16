@@ -17,23 +17,24 @@
       institution: Haverford College, Haverford, Pennsylvania
       year: 2021 &ndash; 2025
       description:
-        - "GPA: 3.93"
-        - "Major GPA: 4.0"
+        - "GPA: 3.96"
+        - "Major GPAs: 4.0"
         - title: "Selected Coursework:"
           contents:
             - Abstract Algebra
-            - Analytic Number Theory
-            - Applied Multivariate Statistical Analysis
-            - Intermediate Macroeconomic Analysis
+            - Advanced Microeconomics
+            - Intermediate Macroeconomics
             - Linear Algebra
+            - Machine Learning
+            - Multivariate Statistical Analysis
+            - Political Economy
             - Real Analysis
-            - Statistical Methods and their Applications
         - "Athletics: Varsity Cricket Team"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Incoming Summer 2023 Research Intern
+    - title: Intern, Stress Testing Research Section
       institution: Federal Reserve Board of Governors, Washington, D.C.
       year: Jun &ndash; Aug 2023
     - title: Research Assistant to Professor Carola Binder
@@ -69,8 +70,9 @@
       description:
         - "Real-time Academic Writing: Typeset real-time notes in LaTeX for disabled students in Haverford’s linear algebra course, translating abstract mathematical and statistical concepts into concise reports with custom graphics."
 
-- title: Skills
+- title: Skills and Awards
   type: list
   contents:
-    - "Programming Languages: HTML, Java, LaTeX, Mathematica, MATLAB, Python, R, Stata, SQL, Unix Scripting"
-    - "Tools: Google Workspace, Git, Microsoft Office Suite (viz., Excel, Powerpoint, Word), Tableau, Zotero"
+    - "Awards: Class of 1896 Prize in Mathematics"
+    - "Programming Languages: HTML, Java, LaTeX, Mathematica, MATLAB, Python (incl. TensorFlow, Keras, sklearn), R, Stata, SQL"
+    - "Tools: Google Workspace, Git, Microsoft Office Suite (i.e., Excel, Powerpoint, Word), Unix, Tableau, Vim, Zotero"
