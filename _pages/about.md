@@ -15,7 +15,7 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I am a research intern at the Federal Reserve Board studying mathematics and economics at Haverford College. My principal interests are industrial organization, finance, and monetary economics. After college, I plan to pursue a Ph.D. in economics and a career as an academic.
+I am a research intern at the Federal Reserve Board studying mathematics and economics at Haverford College. My principal interests are finance, industrial organization, and monetary economics. After college, I plan to pursue a Ph.D. in economics and a career as an academic.
 
 My research experience includes coauthoring a [conference paper](/assets/pdf/GangolfGoyalRoss_CovidReopenings.pdf) involving Covid reopening policies; analyzing large datasets using SQL, Stata, and R; and writing tools like web scrapers and machine learning algorithms in Python. I also recently wrote a book review for Central Banking magazine with Professor [Carola Binder](https://carolabinder.sites.haverford.edu).
 
