@@ -6,7 +6,7 @@
     # - name: Date of Birth
       # value: 16 July 2003
     - name: Languages
-      value: English (Native), French (Working Proficiency)
+      value: English (Native), French (Proficient)
     - name: Citizenship
       value: United States
 
@@ -14,18 +14,20 @@
   type: time_table
   contents:
     - title: B.S. in Mathematics and Economics
-      institution: Haverford College, Haverford, Pennsylvania
+      institution: Haverford College, Haverford, PA
       year: 2021 &ndash; 2025
       description:
-        - "GPA: 3.96"
+        - "GPA: 3.97"
         - "Major GPAs: 4.0"
         - title: "Selected Coursework:"
           contents:
             - Abstract Algebra
+            - Advanced Econometrics 
             - Advanced Microeconomics
-            - Intermediate Macroeconomics
-            - Linear Algebra
+            - Functional Analysis
+            - Macroeconomics
             - Machine Learning
+            - Measure Theory
             - Multivariate Statistical Analysis
             - Political Economy
             - Real Analysis
@@ -34,45 +36,50 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Intern, Stress Testing Research Section
-      institution: Federal Reserve Board of Governors, Washington, D.C.
-      year: Jun &ndash; Aug 2023
-    - title: Research Assistant to Professor Carola Binder
-      institution: Department of Economics, Haverford College, Haverford, Pennsylvania
-      year: Mar &ndash; Aug 2022
+    - title: Incoming Summer Analyst, Macroeconomic and Monetary Studies
+      institution: Federal Reserve Bank of New York, New York, NY
+      year: Jun 2024 &ndash; Aug 2024
+
+    - title: Research Assistant for Professor Kenneth S. Rogoff
+      institution: Harvard University, Department of Economics, Cambridge, MA
+      year: Aug 2023 &ndash; Present
       description:
-        - "Magazine Article: Wrote a critique of the Bank of England’s 2022 economics explainer Can’t we just print more money? which was published in Central Banking magazine in collaboration with my supervisor and a co-worker."
-        - "Price Controls Book: Synthesized research and contemporary sources into succinct reports used to write passages for a forthcoming book about historical price controls."
-        - "NGDP Expectations Study: Replicated my supervisor’s project on consumer NGDP expectations. Included running OLS regressions and rolling correlations in Stata and sourcing data from the Michigan Surveys of Consumers database."
-        - "Central Bank Communications Project: Evaluated speeches by Federal Reserve leaders to identify biased or partisan language for a study investigating central bank communications."
+        - "US Global Performance Book: Assemble and clean datasets (from BIS, IMF, Refinitiv, World Bank, etc.) in R to create figures for a forthcoming book about the evolution of the US macroeconomy from an international perspective."
+
+    - title: Year-round Intern, Stress Testing Research 
+      institution: Federal Reserve Board of Governors, Washington, DC
+      year: Jun 2023 &ndash; Jan 2024
+      description:
+        - "Corporate Debt Paper: Co-authoring a journal article about the transmission of monetary policy through the corporate loan market. Merged, cleaned, and analyzed several large regulatory datasets (SNC, Y-14Q, Y-9C) using SQL, Stata, and Python. Retained part-time during the academic year to continue this work remotely."
+        - "CECL Impact Project: Constructed several matched-sample and synthetic controls specifications to study the impact of the CECL accounting standard on bank lending and net allowances, extending a FEDS Note (Loudis et al., 2021)."
+
+    - title: Research Assistant for Professor Carola Binder
+      institution: Haverford College, Department of Economics, Haverford, PA 
+      year: Mar 2022 &ndash; Aug 2022
+      description:
+        - "Price Controls Book: Synthesized research and primary sources into passages for a forthcoming book about historical price controls in the United States (*Shock Values*, University of Chicago Press, 2024)."
+        - "Explainer Review: Wrote a review of the pop-econ explainer *Can't we just print more money?* (Patel and Meaning, Bank of England, 2022) that was published in *Central Banking* magazine with my supervisor and a colleague."
 
 - title: Activities
   type: time_table
   contents:
     - title: Founder & Co-Head
       institution: Haverford Economics Research Club
-      year: Oct 2021 &ndash; Now
+      year: Oct 2021 &ndash; Present
       description:
-        - "Covid Reopening Research Project: Head a team extending an NBER Working Paper by Raj Chetty. Evaluate the impacts of varied Covid reopening policies on macro indicators with panel regressions and synthetic controls, using Stata and R. Presented this work in a joint University of Gottingen and INET-YSI replication webinar series in November 2022."
-        - "Database Creation: Built a Python web scraper that crawls New York Times archives for data on Covid reopenings and organizes them into a database."
-        - "Academic Community Building: Plan, promote, and host public talks where alumni in economics, public policy, or central banking present academic research. Lead journal readings to examine developments in economic literature."
-        - "Career Development: Provide professional development activities for students curious about research in economics and finance. Tutor members in R, Stata, and Excel, and mentor them in networking and career planning."
+        - "Covid Reopening Extension: Led a team extending Chetty et al. (2023) by investigating sector-based heterogeneity in states' Covid reopening timelines. Built a Python web scraper to crawl NYT archives for reopening data, then used synthetic controls to evaluate the impact of different sectors' reopenings on employment, spending, and business activity."
+        - "Göttingen Webinar Presentation: Presented the club's replication and extension of Chetty et al. (2023) in a joint University of Göttingen and Institute of New Economic Thinking (Young Scholars Initiative) webinar series in November 2022."
+
     - title: Founder & Co-Head
       institution: Haverford Problem Solving Group (Math Club)
-      year: Aug 2021 &ndash; Now
+      year: Aug 2021 &ndash; Present
       description:
-        - "National Competition Performance: Facilitated Haverford’s record top-20 placement in the 2021 Putnam Competition by organizing, advertising, and leading weekly competitive mathematics training events."
-        - "Accessible Pedagogy: Foster a diverse and inclusive mathematical community by writing themed problem sets in LaTeX that draw questions from varying subdisciplines and a wide range of difficulties."
-        - "Responsible Financials: Manage a club budget used for event registration, travel, and supplies by maintaining expense records. Communicate regularly with the math chair to ensure spending conforms with department guidelines."
-    - title: ADS Notetaker for MATH H215 (Linear Algebra)
-      institution: Haverford Office of Access and Disability Services
-      year: Aug &ndash; Dec 2021
-      description:
-        - "Real-time Academic Writing: Typeset real-time notes in LaTeX for disabled students in Haverford’s linear algebra course, translating abstract mathematical and statistical concepts into concise reports with custom graphics."
+        - "Putnam Exam Performance: Supported Haverford’s record top-20 placement in the 2021 and 2022 Putnam exams by organizing, advertising, and leading weekly competitive mathematics training events."
+        - "Accessible Pedagogy: Fostered a diverse and inclusive mathematical community by assembling weekly problem sets that drew questions from various subdisciplines and catered to a range of proficiencies."
 
 - title: Skills and Awards
   type: list
   contents:
-    - "Awards: Class of 1896 Prize in Mathematics"
-    - "Programming Languages: HTML, Java, LaTeX, Mathematica, MATLAB, Python (incl. TensorFlow, Keras, sklearn), R, Stata, SQL"
-    - "Tools: Google Workspace, Git, Microsoft Office Suite (i.e., Excel, Powerpoint, Word), Unix, Tableau, Vim, Zotero"
+    - "Awards: Class of 1896 Prize in Mathematics (Haverford College), American Mathematical Society Nominee Membership"
+    - "Programming Languages: HTML, Java, LaTeX, Mathematica, MATLAB, Python (i.e., TensorFlow, Keras, sklearn), R, Stata, SQL"
+    - "Tools: Google Workspace, Git, Microsoft Office (i.e., Excel, Powerpoint, Word), Refinitiv, Unix, Tableau, Vim, Zotero"
