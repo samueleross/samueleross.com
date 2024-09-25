@@ -67,7 +67,7 @@
   type: time_table
   contents:
     - title: Founder & Co-Head
-      institution: Haverford Economics Research Club
+      institution: Haverford Economics Club
       year: Oct 2021 &ndash; Present
       description:
         - "Covid Reopening Extension: Led a team extending Chetty et al.\ (2020). Built a Python web scraper to crawl New York Times archives for data on states' Covid reopening timelines, then used synthetic controls to evaluate the impact of different sectors' reopenings on employment, spending, and business activity. Presented at a joint University of Göttingen–Institute for New Economic Thinking (Young Scholars Initiative) webinar in November 2022."
