@@ -23,10 +23,11 @@
           contents:
             - Abstract Algebra
             - Advanced Econometrics 
-            - Advanced Microeconomics
+            - Complex Analysis
             - Functional Analysis
-            - Macroeconomics
+            - Graduate Microeconomics I (UPenn)
             - Machine Learning
+            - Macroeconomics
             - Measure Theory
             - Multivariate Statistical Analysis
             - Political Economy
@@ -36,21 +37,23 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Summer Analyst, Macroeconomic and Monetary Studies
-      institution: Federal Reserve Bank of New York (New York, NY)
-      year: Jun 2024 &ndash; Present
-
     - title: Research Assistant for Professor Kenneth S. Rogoff
       institution: Harvard University, Department of Economics (Remote)
       year: Aug 2023 &ndash; Present
       description:
-        - "Global Role of Dollar Book: Created figures and gathered research for a forthcoming book about dollar dominance. Built series illustrating international macro trends using data from LSEG Refinitiv, IMF, World Bank, etc."
+        - "Global Role of the Dollar Book: Gathered research for a forthcoming book about dollar dominance. Built charts illustrating international macroeconomic trends using data from LSEG Refinitiv, IMF, World Bank, etc."
+
+    - title: Summer Analyst, Macroeconomic and Monetary Studies, DSGE
+      institution: Federal Reserve Bank of New York (New York, NY)
+      year: Jun 2024 &ndash; Aug 2024
+      description:
+        - "HANK Solution Software: Wrote a Julia package that implements the Sequence-Space Jacobian method of Auclert et al. (2021) to efficiently solve Heterogeneous-Agent New Keynesian (HANK) DSGE models. Software facilitates analysis of the distributional consequences of monetary and fiscal policy for research and internal Bank reports."
 
     - title: Year-round Intern, Stress Testing Research 
       institution: Federal Reserve Board of Governors (Washington, DC)
       year: Jun 2023 &ndash; Jan 2024
       description:
-        - "Corporate Debt Paper: Co-authoring a journal article about the transmission of monetary policy through the corporate loan market. Merged, cleaned, and analyzed several large regulatory datasets (SNC, Y-14Q, Y-9C) using SQL, Stata, and Python. Retained part-time during the academic year to continue this work remotely."
+        - "Corporate Debt Paper: Currently co-authoring a journal article about the transmission of monetary policy through the corporate loan market. Merged, cleaned, and analyzed several large regulatory datasets (SNC, Y-14Q, Y-9C) using SQL, Stata, and Python. Retained part-time during the academic year to continue this work."
         - "CECL Impact Project: Used synthetic controls to study the impact of the CECL accounting standard on bank lending and net allowances, extending a FEDS Note (Loudis et al., 2021)."
 
     - title: Research Assistant for Professor Carola Binder
@@ -67,7 +70,7 @@
       institution: Haverford Economics Research Club
       year: Oct 2021 &ndash; Present
       description:
-        - "Covid Reopening Extension: Led a team extending Chetty et al.\ (2023). Built a Python web scraper to crawl New York Times archives for data on states' Covid reopening timelines, then used synthetic controls to evaluate the impact of different sectors' reopenings on employment, spending, and business activity. Presented at a joint University of Göttingen–Institute for New Economic Thinking (Young Scholars Initiative) webinar in November 2022."
+        - "Covid Reopening Extension: Led a team extending Chetty et al.\ (2020). Built a Python web scraper to crawl New York Times archives for data on states' Covid reopening timelines, then used synthetic controls to evaluate the impact of different sectors' reopenings on employment, spending, and business activity. Presented at a joint University of Göttingen–Institute for New Economic Thinking (Young Scholars Initiative) webinar in November 2022."
 
     - title: Founder & Co-Head
       institution: Haverford Problem Solving Group (Math Club)
@@ -80,4 +83,4 @@
   contents:
     - "Awards: The Michael M.\ Weinstein Prize in Economics (Haverford, 2024), Class of 1896 Prize in Mathematics (Haverford, 2023)"
     - "Programming Languages: Java, Julia, LaTeX, Mathematica, MATLAB, Python (TensorFlow, Keras, sklearn), R, Stata, SQL"
-    - "Tools: Git, Microsoft Office (Excel, PowerPoint, Word), Refinitiv, Unix, Tableau, Vim, Zotero"
+    - "Tools: Git, LSEG Refinitiv, Microsoft Office (Excel, PowerPoint, Word), Tableau, Unix, Vim, Zotero"
