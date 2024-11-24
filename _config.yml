@@ -47,7 +47,7 @@ rss_icon: false
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: false
+footer_fixed: true
 
 # Dimensions
 max_width: 800px
@@ -248,9 +248,9 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 scholar:
 
   last_name: [Ross]
-  first_name: [Samuel, E.]
+  first_name: [Samuel E., Samuel]
 
-  style: apa
+  style: chicago-author-date
   locale: en
 
   source: /_bibliography/

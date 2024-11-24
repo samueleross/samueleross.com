@@ -4,7 +4,7 @@ title: About
 permalink: /
 subtitle: <strong>Math & Econ</strong> @ <a href='https://www.haverford.edu'>Haverford College</a>&nbsp;&nbsp;•&nbsp;&nbsp;<strong>Econ RA</strong> @ <a href='https://www.harvard.edu'>Harvard University
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >

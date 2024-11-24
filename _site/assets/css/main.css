@@ -6,18 +6,18 @@
  * Themes
  ******************************************************************************/
 :root {
-  --global-bg-color: #ffffff;
-  --global-code-bg-color: rgba(181, 9, 172, 0.05);
+  --global-bg-color: #F2F0ED;
+  --global-code-bg-color: rgba(39, 91, 138, 0.05);
   --global-text-color: #000000;
   --global-text-color-light: #828282;
-  --global-theme-color: #B509AC;
-  --global-hover-color: #B509AC;
-  --global-footer-bg-color: #1C1C1D;
+  --global-theme-color: #275B8A;
+  --global-hover-color: #275B8A;
+  --global-footer-bg-color: #1D1C1C;
   --global-footer-text-color: #e8e8e8;
-  --global-footer-link-color: #ffffff;
+  --global-footer-link-color: #F2F0ED;
   --global-distill-app-color: #828282;
-  --global-divider-color: rgba(0,0,0,.1);
-  --global-card-bg-color: #ffffff;
+  --global-divider-color: #C5BFB3;
+  --global-card-bg-color: #F2F0ED;
 }
 :root .fa-sun {
   display: none;
@@ -35,14 +35,14 @@
 }
 
 html[data-theme=dark] {
-  --global-bg-color: #1C1C1D;
+  --global-bg-color: #1D1C1C;
   --global-code-bg-color: #2c3237;
-  --global-text-color: #e8e8e8;
-  --global-text-color-light: #e8e8e8;
-  --global-theme-color: #2698BA;
-  --global-hover-color: #2698BA;
+  --global-text-color: #F2F0ED;
+  --global-text-color-light: #F2F0ED;
+  --global-theme-color: #79BAD5;
+  --global-hover-color: #79BAD5;
   --global-footer-bg-color: #e8e8e8;
-  --global-footer-text-color: #1C1C1D;
+  --global-footer-text-color: #1D1C1C;
   --global-footer-link-color: #000000;
   --global-distill-app-color: #e8e8e8;
   --global-divider-color: #424246;
@@ -442,7 +442,7 @@ footer.sticky-bottom {
   color: #000000;
 }
 .pagination .page-item.active .page-link {
-  color: #ffffff;
+  color: #F2F0ED;
   background-color: var(--global-theme-color);
 }
 .pagination .page-item.active .page-link:hover {
@@ -507,6 +507,7 @@ footer.sticky-bottom {
   margin-top: 2rem;
   margin-bottom: -2rem;
   text-align: right;
+  font-weight: bolder;
 }
 .publications ol.bibliography {
   list-style: none;

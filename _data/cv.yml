@@ -13,9 +13,9 @@
 - title: Education
   type: time_table
   contents:
-    - title: B.S. in Mathematics and Economics
+    - title: B.S. in Mathematics and Economics, Minor in Statistics
       institution: Haverford College, Haverford, PA
-      year: 2021 &ndash; 2025
+      year: Aug 2021 &ndash; May 2025
       description:
         - "GPA: 3.98"
         - "Major GPAs: 4.0"
@@ -29,10 +29,10 @@
             - Machine Learning
             - Macroeconomics
             - Measure Theory
-            - Multivariate Statistical Analysis
-            - Political Economy
             - Real Analysis
         - "Athletics: Varsity Cricket (Batsman)"
+        - "Thesis: \"Central Bank Credibility and Exchange Rate Determination with Financial Intermediaries\" (Draft)"
+        - "Service: Tenure-Track Economics Faculty Hiring Committee (2024&ndash;25)"
 
 - title: Experience
   type: time_table
@@ -41,36 +41,41 @@
       institution: Harvard University, Department of Economics (Remote)
       year: Aug 2023 &ndash; Present
       description:
-        - "Global Role of the Dollar Book: Gathered research for a forthcoming book about dollar dominance. Built charts illustrating international macroeconomic trends using data from LSEG Refinitiv, IMF, World Bank, etc."
+        - "Global Role of the Dollar Book: Gathered research for a forthcoming book about dollar dominance. Constructed analyses illustrating international macroeconomic trends using data from LSEG Refinitiv, IMF, World Bank, etc."
 
     - title: Summer Analyst, Macroeconomic and Monetary Studies, DSGE
       institution: Federal Reserve Bank of New York (New York, NY)
       year: Jun 2024 &ndash; Aug 2024
       description:
-        - "HANK Solution Software: Wrote a Julia package that implements the Sequence-Space Jacobian method of Auclert et al. (2021) to efficiently solve Heterogeneous-Agent New Keynesian (HANK) DSGE models. Software facilitates analysis of the distributional consequences of monetary and fiscal policy for research and internal Bank reports."
+        - "HANK Software: Wrote a Julia package that implements the Sequence-Space Jacobian method of Auclert et al. (2021) to efficiently solve Heterogeneous-Agent New Keynesian (HANK) DSGE models. Software facilitates analysis of the distributional consequences of monetary and fiscal policy for research and internal Bank reports."
 
     - title: Year-round Intern, Stress Testing Research 
       institution: Federal Reserve Board of Governors (Washington, DC)
       year: Jun 2023 &ndash; Jan 2024
       description:
-        - "Corporate Debt Paper: Currently co-authoring a journal article about the transmission of monetary policy through the corporate loan market. Merged, cleaned, and analyzed several large regulatory datasets (SNC, Y-14Q, Y-9C) using SQL, Stata, and Python. Retained part-time during the academic year to continue this work."
-        - "CECL Impact Project: Used synthetic controls to study the impact of the CECL accounting standard on bank lending and net allowances, extending a FEDS Note (Loudis et al., 2021)."
+        - "Corporate Debt Paper: Co-authored a working paper (submitted to WFA) about the transmission of monetary policy through the corporate loan market. Merged, cleaned, and analyzed large regulatory datasets (SNC, Y-14Q, Y-9C) using SQL, Stata, and Python. Retained part-time during the academic year to continue this work."
+        # - "CECL Impact Project: Used synthetic controls to study the impact of the CECL accounting standard on bank lending and net allowances, extending a FEDS Note (Loudis et al., 2021)."
 
     - title: Research Assistant for Professor Carola Binder
       institution: Haverford College, Department of Economics (Haverford, PA)
-      year: May 2022 &ndash; Aug 2022
+      year: Mar 2022 &ndash; Aug 2022
       description:
         - "Price Controls Book: Gathered primary sources and wrote passages for a book about historical price controls in the United States (Shock Values, University of Chicago Press, 2024)."
-        - "Magazine Review: Wrote a review of \"Can't we just print more money?\" (Patel, Meaning, and Bank of England, Cornerstone Press, 2022) that was published in Central Banking magazine with my supervisor and a colleague."
+        # - "Magazine Review: Wrote a review of \"Can't we just print more money?\" (Patel, Meaning, and Bank of England, Cornerstone Press, 2022) that was published in Central Banking magazine with my supervisor and a colleague."
+
+- title: Working Papers
+  type: list
+  contents:
+    - "\"Leveraged Loans and the Transmission of Monetary Policy\" (with Murillo Campello and Teng Wang)"
 
 - title: Activities
   type: time_table
   contents:
-    - title: Founder & Co-Head
+    - title: Co-Founder & Co-Head
       institution: Haverford Economics Club
       year: Oct 2021 &ndash; Present
       description:
-        - "Covid Reopening Extension: Led a team extending Chetty et al.\ (2020). Built a Python web scraper to crawl New York Times archives for data on states' Covid reopening timelines, then used synthetic controls to evaluate the impact of different sectors' reopenings on employment, spending, and business activity. Presented at a joint University of Göttingen–Institute for New Economic Thinking (Young Scholars Initiative) webinar in November 2022."
+        - "Covid Reopening Extension: Led a team extending Chetty et al.\ (2020). Built a Python web scraper to crawl the New York Times for states' sector-level Covid reopenings, then used synthetic controls to evaluate their impact on employment and consumption. Presented at the INET YSI Webinar on Replication in November 2022."
 
     - title: Founder & Co-Head
       institution: Haverford Problem Solving Group (Math Club)
